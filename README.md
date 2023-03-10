@@ -16,15 +16,18 @@ Go code is also known for its performance. It is a compiled language, which mean
 
 - Concurrent programming support (via goroutines).
 - Efficient memory management: Go uses a garbage collector to manage memory allocation and deallocation, which reduces the risk of memory leaks and other memory-related errors.
-- Simple syntax: Go has a simple syntax that is easy to read and write, making it a great language for beginners and experienced developers alike.
+- Simple syntax: Go has a simple syntax that is easy to read and write. No semicolon is needed.
+- The standard formatting tool!
 - High performance: Go's compiled nature and efficient design make it a high-performance language, which is important for large-scale applications and systems.
 - Good standard library: Go has a strong standard library that provides many useful functions for developers, such as HTTP servers, networking, and cryptography.
+
 
 ### Cons
 
 - Limited libraries: the number of third-party libraries available is relatively limited compared to other languages. This can make it more difficult to find and use specific tools or libraries.
 - Statically typed. Note that generic types (or *generics*) function were added only recently (release v1.18).
 - Steep learning curve for some concepts, such as channels and interfaces.
+- The official documentation is not particularly clear.
 - No exceptions: Go does not have a built-in exception handling mechanism.
 - Limited support for low-level programming: While Go is a low-level language, it does not offer the same level of control over hardware that other low-level languages, such as C or Assembly, do. This can be a limitation in certain contexts.
 
@@ -51,3 +54,10 @@ Go code is also known for its performance. It is a compiled language, which mean
 
 ![Comparison of languages](res/comparison.png)
  
+## Assigned tasks
+
+1. Function to import csv file and provide a moving average of the previous 20 seconds for each sensor value (each column).
+
+2. 
+
+3. 
