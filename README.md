@@ -49,5 +49,5 @@ Go code is also known for its performance. It is a compiled language, which mean
 
 ## Comparison with other languages
 
-![Comparison of languages](res/Comparison.png)
+![Comparison of languages](res/comparison.png)
  
