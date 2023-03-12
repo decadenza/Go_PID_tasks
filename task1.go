@@ -14,12 +14,12 @@ import (
 
 func main() {
 
-	filename, err := filepath.Abs("./res/PA_Interview_Questions_Data.csv")
 	time_string := "15:04:05" // Golang odd time format...
-
+	filename, err := filepath.Abs("./res/PA_Interview_Questions_Data.csv")
 	if err != nil {
         log.Fatal(err)
     }
+
 
 	file, err := os.Open(filename)
 
