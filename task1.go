@@ -101,9 +101,9 @@ func main() {
 			}
 			
 			// Do whatever you want with the rolling average.
-			fmt.Printf("Rolling average over the last 20 seconds (%d items found):", items)
+			fmt.Printf("Rolling average for the 20 seconds ending at %s (%.f items found):\n", timeseries[len(timeseries)-1].Format(time_string), items)
 			for k := range header[1:] {
-				fmt.Println("\t", header[k], "=", average[k])
+				fmt.Println("\t", header[k+1], "=", average[k])
 			}
     }
 }
