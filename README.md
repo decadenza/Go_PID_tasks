@@ -56,8 +56,8 @@ Go code is also known for its performance. It is a compiled language, which mean
  
 ## Assigned tasks
 
-1. Function to import csv file and provide a moving average of the previous 20 seconds for each sensor value (each column).
+1. [task1.go](task1.go) Script to import csv file and provide a moving average of the previous 20 seconds for each sensor value (each column).
 
-2. 
+2. [task2.go](task2.go) Script to recursively search .xlsx files into the target directory.
 
-3. 
+3. [task2.go](task2.go) Example of PID controller.

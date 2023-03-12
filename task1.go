@@ -20,7 +20,6 @@ func main() {
         log.Fatal(err)
     }
 
-
 	file, err := os.Open(filename)
 
 	if err != nil {
@@ -29,7 +28,7 @@ func main() {
 
     r := csv.NewReader(file)
 
-	// Get header (we are sure that first line must be the header).
+	// Get header (we are sure that first line is the header).
 	header := make([]string, 0)
 
 	record, err := r.Read()
