@@ -1,4 +1,4 @@
-# Proactive Analytics - Technical interview
+# Some Go tasks
 
 ## General info about Go
 
@@ -60,5 +60,5 @@ Go code is also known for its performance. It is a compiled language, which mean
 
 2. [task2.go](task2.go) Script to recursively search .xlsx files into the target directory.
 
-3. [task2.go](task2.go) Example of PID controller. Manual tuning is assumed. Other methods to find the parameters can be considered, e.g. Ziegler–Nichols method requires to be online (connected to the system) or automatic tuning algorithms exist.
+3. [task3.go](task3.go) Example of PID controller. Manual tuning is assumed. Other methods to find the parameters can be considered, e.g. Ziegler–Nichols method requires to be online (connected to the system) or automatic tuning algorithms exist.
 N.B. This is a mock-up: system is not available for online tuning!
