@@ -86,7 +86,7 @@ func main(){
 func PID_Step(value float64, current_time time.Time, ctrl PIDController) float64 {
 
 	err := ctrl.setpoint - value
-	dt := current_time.Sub(ctrl.oldTime).Seconds()
+	dt := float64(current_time.Sub(ctrl.oldTime).Milliseconds()) / 1000
 
 	ctrl.integral_sum = ctrl.integral_sum + ctrl.i * err * dt
 
